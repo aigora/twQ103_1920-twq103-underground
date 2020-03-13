@@ -1,7 +1,6 @@
-# Título del trabajo
-Underground
+# Underground
 
-Se trata de una app que ayuda al usuario a encontrar el alojamiento y el medio de transporte que mejor se adapte a sus servicios
+Underground se trata de una app que ayuda al usuario a encontrar el alojamiento y el medio de transporte que mejor se adapte a sus servicios
 
 ## Integrantes del equipo
 
