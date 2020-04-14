@@ -5,7 +5,9 @@ Underground se trata de una app que ayuda al usuario a encontrar el alojamiento 
 ## Integrantes del equipo
 
 Nerea Rodriguez (Nerea.Rodriguez.Lopez) 
+
 Elisa Palazón (Elisaa0108)
+
 Paula Mena (Pauumenaa)
 
 ## Objetivos del trabajo
