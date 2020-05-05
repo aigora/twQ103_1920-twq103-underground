@@ -93,7 +93,7 @@ int main(){
     				printf("Error: Tiene que ser 2,3, o 4");
 			}
     		break;
-    	case 5:
+    	case 2:
     		printf("Usted no desea un vehiculo\n");
     		break;
     	default:
