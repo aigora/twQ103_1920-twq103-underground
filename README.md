@@ -12,7 +12,8 @@ Paula Mena Redondo (Pauumenaa)
 
 ## Objetivos del trabajo
 
-La idea de nuestro proyecto es llevar a cabo una agencia de viajes que te garantice con total comodidad el lugar al que desees viajar con una búsqueda inmediata, y te ofrezca el medio de transporte perfecto para el viaje que vas a emprender con una reserva adelantada
+1. La idea de nuestro proyecto es llevar a cabo una agencia de viajes que te garantice con total comodidad el lugar al que desees viajar  2. Ofrecer el medio de transporte perfecto para el viaje que vas a emprender 
+3. Confirmar la reserva
 
 
 
