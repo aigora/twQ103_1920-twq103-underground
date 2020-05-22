@@ -1,0 +1,5 @@
+1-Espanya 2-Alemania 3-Francia 
+4-California 5-NewYork 6-Miami 
+7-Madagascar 8-Egipto 9-IslasMauricio
+10-Rusia 11-Mongolia 12-China
+13-Australia 14-NuevaZelanda
