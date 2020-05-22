@@ -1,4 +1,3 @@
-
 #include <stdio.h>
 #include <string.h>
 struct TDatos{
@@ -62,12 +61,15 @@ system("Color B5");
 		printf("Introduce el nombre de usuario:\n");
 		fflush(stdin);
 		scanf("%s",viajes[nDatos].nombreUsuario);
+		printf("\n");
 		printf("Introduce la contrasenna(debe tener mas de 6 digitos):\n");
 		fflush(stdin);
 		scanf("%s", viajes[nDatos].contrasenna);
+		printf("\n");
 		longitud = strlen(viajes[nDatos].contrasenna);
 		if(longitud<6){
 			printf("La contrasenna tiene que ser mayor que 8 caracteres\n");
+			printf("\n");
 	 }
 	    }while(longitud<6);
 		fprintf(pfichero,"Nombre de usuario:%s Contrasenna:%s\n",viajes[nDatos].nombreUsuario,viajes[nDatos].contrasenna);
@@ -76,14 +78,17 @@ system("Color B5");
 		do{
 		printf("Proceda a registrarse,introduce su nombre de usuario:\n");
 		scanf("%s", viajes[nDatos].nombreUsuario);
-		printf("Introduce su contrasena:(debe tener mas de 8 caracteres):\n");
+		printf("\n");
+		printf("Introduce su contrasena:(debe tener mas de 6 caracteres):\n");
 		scanf("%s", viajes[nDatos].contrasenna);
+		printf("\n");
 		longitud = strlen(viajes[nDatos].contrasenna);
 		if(longitud<6){
-		printf("La contrasenna tiene que ser mayor que 8 caracteres\n");
+		printf("La contrasenna tiene que ser mayor que 6 caracteres\n");
 	}
 	}while(longitud<6);
 	    printf("Su cuenta ha sido creada con exito\n");
+	    printf("\n");
 		fprintf(pfichero,"Nombre de usuario:%s\n Contrasenna:%s\n",viajes[nDatos].nombreUsuario,viajes[nDatos].contrasenna);
 		fclose(pfichero);
 	} 
@@ -105,6 +110,7 @@ system("Color B5");
     fclose(open);
     for(i=0; i<contador;i++){
     	printf("%s", Infor[i].pais);
+    	printf("\n");
     	printf("\t");
 	}
 	printf("\n");
@@ -113,6 +119,7 @@ system("Color B5");
 	do{
 	printf("Numero:\n");
 	scanf("%d",&lugar);
+	printf("\n");
 	if(lugar>contador){
 		printf("El pais no se encuentra en la lista\n");
 	}
@@ -122,9 +129,11 @@ system("Color B5");
 	transporte();
 	fflush(stdin);
 	scanf("%d", &eleccion);
+	printf("\n");
 	}while(eleccion!= 0 && eleccion!=1);
 	switch(eleccion){
 		case 0:
+			do{
     		printf("Usted ha seleccionado que desea un vehiculo\n");
     		printf("Seleccione una opcion\n");
     		printf("C --> COCHE\n");
@@ -132,15 +141,20 @@ system("Color B5");
     		printf("V --> AVE\n");
     		fflush(stdin);
     		scanf("%c", &tipo);
+    	}while(tipo != 'C' && tipo != 'A' && tipo!= 'V');
+    		printf("\n");
     		switch(tipo){
     			case 'C':
     				printf("Ha seleccionado un coche\n");
+    				printf("\n");
 				   break;
     			case 'A':
     				printf("Ha seleccionado un avion\n");
+    				printf("\n");
 				   break;
     			case 'V':
     				printf("Ha seleccionado un ave\n");
+    				printf("\n");
 			 break;
     			default:
     				printf("Error: Tiene que ser C,A, o V\n");
@@ -149,11 +163,12 @@ system("Color B5");
 			do{
 			printf("Introduzca la franja horaria deseada: \n");
 			printf("--HORARIOS---\n");
-	        printf("|9 -->9:00h |\n");
-	        printf("|14-->14:00h|\n");
-	        printf("|21-->21:00h|\n");
-	        fflush(stdin);
-	        scanf("%d", &horario);
+	                printf("|9 -->9:00h |\n");
+	                printf("|14-->14:00h|\n");
+	                printf("|21-->21:00h|\n");
+	                fflush(stdin);
+	                scanf("%d", &horario);
+	                printf("\n");
 			}while( horario!= 9 && horario != 14 && horario!= 21);
     		break;
     	case 1:
@@ -182,6 +197,4 @@ system("Color B5");
 
 
 
-
-	   
 	
